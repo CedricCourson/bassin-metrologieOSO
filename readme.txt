@@ -3,7 +3,7 @@ Focntionnement
 # Lancement du programme
 -----------------------
 
-Pour lancer le programme de régulation de température du bassin  : 
+Pour lancer le programme de rÃ©gulation de tempÃ©rature du bassin  : 
 1- Se connecter au Raspberry en SSH
 2- Se rendre dans le dossier /home/python/bassin-metreologie/cedtest en ligne de commande
 3- lancer le script python AssTemp_v6.py
@@ -17,16 +17,16 @@ boucle - 2
 20 - 1800
 25 - 1800
 30 - 1800
-il réalise deux fois les cycles de paliers. les paliers s'échelonne de 10 à 30°C sur cette example et chaque palier dure 1800s
+il rÃ©alise deux fois les cycles de paliers. les paliers s'Ã©chelonne de 10 Ã  30Â°C sur cette example et chaque palier dure 1800s
 
-Si on indique 0 à boucle, alors il va boucler à l'infinie. 
+Si on indique 0 Ã  boucle, alors il va boucler Ã  l'infinie. 
 
-On peut configurer le script pour envoyer les données en temps réel sur thingspeak. Dans le cas le script devra etre lancé comme suit : 
+On peut configurer le script pour envoyer les donnÃ©es en temps rï¿½el sur thingspeak. Dans le cas le script devra etre lancï¿½ comme suit : 
 >> python AssTemp_v6.py --thingspeak yes
 
 
-# les données 
+# les donnÃ©es 
 -------------
-Les données sont systématiquement enregistrer sur le fichier CSV qui s'appelle data_bassin.csv
+Les donnÃ©es sont systÃ©matiquement enregistrer sur le fichier CSV qui s'appelle data_bassin.csv
 
-on peut aussi visualiser et télecharger les données sur thingspeak à l'adresse : https://thingspeak.mathworks.com/channels/2229533
+on peut aussi visualiser et tÃ©lecharger les donnÃ©es sur thingspeak Ã  l'adresse : https://thingspeak.mathworks.com/channels/2229533
